@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+.container h1 {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+.container h1 img {
+    width: 60px;
+}
+.container button img {
+    width: 20px;
+    padding-right: 5px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    background:  linear-gradient(135deg, #8c29e9, #531e91);
+    outline: none;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 25px;
+    color: white;
+    margin-top: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.input-box { 
+    position: relative;
+    height: 100px;
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    outline: none;
+    border: none;
+    margin-top: 35px;
+    border-radius: 3px;
+    color: black;
+    padding: 10px;
+    font-size: 14px;
+}
+.input-box img {
+    position: absolute;
+    width: 20px;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .container h1 {
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    .container h1 img {
+        margin-left: 30px;
+        width: 70px;
+    }
+    .container button {
+        margin-left: 30px;
+        font-size: 16px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
+        border-radius: 25px;
+    }
+    .input-box {
+        width: 340px;
+        height: 120px;
+    }
+}
